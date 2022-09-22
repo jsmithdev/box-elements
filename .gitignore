@@ -5,7 +5,7 @@
 .idea
 _site
 __diff_output__
-dist
+# dist
 es
 i18n/*.js
 i18n/json

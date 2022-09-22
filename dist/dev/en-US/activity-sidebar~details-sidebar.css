@@ -1,0 +1,24 @@
+/*!
+ * Box UI Element
+ * 
+ * Copyright 2019 Box, Inc. All rights reserved.
+ * 
+ * This product includes software developed by Box, Inc. ("Box")
+ * (http://www.box.com)
+ * 
+ * ALL BOX SOFTWARE IS PROVIDED "AS IS" AND ANY EXPRESS OR IMPLIED
+ * WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+ * MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
+ * IN NO EVENT SHALL BOX BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+ * SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+ * LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+ * DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+ * THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+ * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+ * OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ * 
+ * See the Box license for the specific language governing permissions
+ * and limitations under the license.
+ */
+@keyframes popup_bounce_in{0%{transform:scale3d(.1,.1,1)}to{transform:scaleX(1)}}.modal{position:fixed;top:0;right:0;bottom:0;left:0;z-index:160;display:flex;flex:1;align-items:center;padding:30px;overflow:auto;outline:0}.modal .modal-dialog{border:none;box-shadow:none;animation:popup_bounce_in .3s}.modal .modal-header{margin-right:20px}.modal hr{margin:20px 0;border:none;border-top:1px solid #d3d3d3}.modal-dialog-container{margin:auto}.modal-dialog{position:relative;display:flex;flex-direction:column;width:460px;max-width:100%;margin:auto;padding:30px;background-color:#fff;background-clip:padding-box;border-radius:12px;box-shadow:0 1px 1px 1px rgba(0,0,0,.05)}.modal-title{display:inline-block;flex:1;max-width:100%;margin:0;overflow:hidden;font-weight:700;font-size:16px;line-height:inherit;word-wrap:break-word;overflow-wrap:break-word}.modal-content{margin-top:20px}.modal-close-button{position:absolute;top:20px;right:20px;padding:2px;color:#909090;font-weight:700;font-size:11px;background:none;border:0;cursor:pointer}.modal-backdrop{position:fixed;top:0;right:0;bottom:0;left:0;z-index:-1;background:rgba(0,0,0,.75)}.modal-actions{display:flex;flex:none;align-items:center;justify-content:flex-end;margin-top:30px;text-align:right}.modal-actions .btn:last-of-type{margin-right:0}.modal-actions .btn{padding:0 16px;font-size:14px;line-height:38px;margin-top:0;margin-bottom:0}.modal-container{position:fixed;top:0;right:0;bottom:0;left:0;z-index:89;display:flex}@media (max-width:460px){.is-responsive-web .modal{flex-direction:column;padding:0}.is-responsive-web .modal-header-container{position:absolute;top:0;left:0;display:flex;align-items:center;width:100%;height:64px}.is-responsive-web .modal-header{display:flex;align-items:center;padding:0 16px}.is-responsive-web .modal-content{margin-top:64px;margin-bottom:60px;padding:24px 16px 12px;overflow:auto}.is-responsive-web .modal-dialog{height:100%;padding:0;border-radius:0}.is-responsive-web .modal-close-button{top:0;right:10px;display:flex;align-items:center;height:100%;padding:20px 0}.is-responsive-web .modal-actions{position:fixed;right:0;bottom:0;width:100%;height:60px;padding:10px 16px;background-color:#fff}}.is-responsive-web .modal-dialog-container{flex-basis:100%;width:100%;overflow:hidden}
+/*# sourceMappingURL=activity-sidebar~details-sidebar.css.map*/
