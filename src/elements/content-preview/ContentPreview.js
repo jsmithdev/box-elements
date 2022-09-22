@@ -435,8 +435,10 @@ class ContentPreview extends React.PureComponent<Props, State> {
      * @return {string} base url
      */
     getBasePath(asset: string): string {
-        const { staticHost, staticPath, language, previewLibraryVersion }: Props = this.props;
-        const path: string = `${staticPath}/${previewLibraryVersion}/${language}/${asset}`;
+        const { staticHost, language, previewLibraryVersion }: Props = this.props; // staticPath,
+        // const path: string = `${staticPath}/${previewLibraryVersion}/${language}/${asset}`;
+        const path: string = `phmportal/resource/1663688236000/preview281/preview/${previewLibraryVersion}/${language}/${asset}`;
+        console.log(path);
         const suffix: string = staticHost.endsWith('/') ? path : `/${path}`;
         return `${staticHost}${suffix}`;
     }
